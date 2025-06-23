@@ -1,13 +1,6 @@
 import streamlit as st
 
 # --- Basic password authentication ---
-def check_auth():
-    st.sidebar.title("🔐 Login Required")
-    password = st.sidebar.text_input("Enter password", type="password")
-    if password != "admin123":
-        st.warning("Access denied. Please enter the correct password.")
-        st.stop()
-check_auth()
 
 
 import streamlit as st
