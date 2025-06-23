@@ -1,0 +1,3 @@
+# Required for Hugging Face Space
+sdk: streamlit
+app_file: app.py
